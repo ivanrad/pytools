@@ -6,7 +6,7 @@ def main():
     num = 0
     for line in sys.stdin:
         num += 1
-        sys.stdout.write('%d %s' % (num, line))
+        sys.stdout.write('%6d %s' % (num, line))
     sys.stdout.flush()
 
 if __name__ == '__main__':
